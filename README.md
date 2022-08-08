@@ -1,5 +1,5 @@
 <p align="center">
-  <img align="center" src="https://github.com/layuntaFelipe/crypto-nummum/blob/master/screenshots/logo.png" alt="Boxes Logo" width="120"/>
+  <img align="center" src="https://github.com/layuntaFelipe/chefsEyeWeb/blob/master/accets/logo.png" alt="Boxes Logo" width="120"/>
   <h1 align="center">Chef's Eye Web</h1>
 </p>
 
