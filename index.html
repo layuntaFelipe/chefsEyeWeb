@@ -1,12 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
- <meta charset="UTF-8">
- <meta http-equiv="X-UA-Compatible" content="IE=edge">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>Document</title>
-</head>
-<body>
- <h1>Hi</h1>
-</body>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+      
+    <title>Home</title>
+
+    <!-- CSS only -->
+    <link href="css/styles.css" rel="stylesheet">
+	<link rel="icon" href="accets/logo.png" type="image/png">
+   
+   
+      
+  </head>
+  <body>
+    
+    <nav>
+      <a href="index.html"><img class="navbar-logo" src="accets/logoName.svg" alt="Brand"></a>
+      
+      <ul>
+        <li><a href="index.html" class="navBtn" id="home">Home</a></li>
+        <li><a href="#softwareID" class="navBtn" id="ourSoftware">Our Software</a></li>
+        <li><a href="#aboutUsID" class="navBtn" id="aboutUs">About Us</a></li>
+        <li><a href="#contactID" class="navBtn" id="contacts">Contacts</a></li>
+      </ul>
+      <div class="userLog">
+        <a href="logIn.html" id="loginBtn">Log In</a>
+        <a href="signUp.html" class="btn-accent">Sign Up</a>
+      </div>
+
+      <div class="mobile-nav" id="mobileID">
+          <a href="index.html" class="navBtn">Home</a>
+          <a href="#softwareID" class="navBtn">Our Software</a>
+          <a href="#aboutUsID" class="navBtn">About Us</a>
+          <a href="#contactID" class="navBtn">Contacts</a>
+          <a href="logIn.html" id="loginBtnMobile">Log In</a>
+          <a href="signUp.html" class="btn-accent">Sign Up</a>
+      </div>
+
+      <div class="burger" id="burgerID">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
+
+
+    <div class="container" data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+      <div class="heropage clearfix">
+        <div class="right-hero clearfix">
+          <img src="accets/heroImage2.jpg" alt="plate">
+        </div>
+        <div class="left-hero clearfix">
+          <h2>
+            Adding flavor to the recipe of restaurant management
+          </h2>
+          <h5>
+            Our goal is to lead the way entrepreneurs manage their restaurants, pushing optimization to the limit with our software.
+          </h5>
+          <a href="plans.html" class="btn-accent">Get Started</a>
+          <a href="moreAbout.html" id="learn-more-btn"><img src="accets/Learn More icon.svg" alt="play icon"> Learn More</a>
+        </div>
+      </div>
+
+      <div class="software clearfix" id="softwareID">
+        <div class="title-sections">
+          <h4>PRODUCT</h4>
+          <h3>Our Software</h3>
+        </div>
+        <div class="software-left">
+          <img src="accets/pexels-christina-morillo-1181675.jpg" alt="">
+          <a href="moreAbout.html">More About our Software</a>
+        </div>
+        <div class="software-right">
+          <p>ChefsEye is an internet software focused on restaurant management. It completely changes the way customers, employees, managers, and owners interact with a restaurant.</p>
+          <p>With ChefsEye Software you will have on your hand total control of your restaurant, making your restaurant fast, more profitable, and easier to manage.</p>
+          
+          <a href="plans.html" class="btn-accent" id="contract">See Prices</a>
+        </div>
+        
+        
+      </div>
+
+      <div class="vision-goals">
+        <div class="title-sections">
+          <h4>SERVICE</h4>
+          <h3>Our Vision & Our Goal</h3>
+        </div>
+        <div class="column-goals">
+          <div class="container-goals" id="storage">
+            <img src="accets/database2.svg" alt="storage-logo-img">
+            <h5>Storage Management</h5>
+            <p>Keep track of every order, money, food storage, table rotation, monthly profits, employment payments, and much more...</p>
+            <a href="moreAbout.html" class="btn-accent">Learn More</a>
+          </div>
+          <div class="container-goals" id="automate">
+            <img src="accets/robot.svg" alt="robot-logo-img">
+            <h5>Automate Tasks</h5>
+            <p>Automate boring and repetitive tasks with ChefsEye Software. You will never have to worry about employment payments, food storage, and table orders.</p>
+            <a href="moreAbout.html" class="btn-accent">Learn More</a>
+          </div>
+          <div class="container-goals" id="profit">
+            <img src="accets/money.svg" alt="money-logo-img">
+            <h5>Increase Profit</h5>
+            <p>Increase your profit without having to work more for it, with all the data that you will have with the software, increasing profit is just guaranteed with it.</p>
+            <a href="moreAbout.html" class="btn-accent">Learn More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="ourStart clearfix" id="aboutUsID">
+        <div class="title-sections">
+          <h4>CREATION</h4>
+          <h3>How We Started</h3>
+        </div>
+        <div class="right-page">
+          <img src="accets/working.gif" id="gifImage" alt="">
+        </div>
+        <div class="left-page">
+          <p>The company was started in a college room located in Lethbridge, Alberta, Canada, by a CIT (Computer Information Technology) student named Felipe in a User-Interface Design class.</p> 
+          <p>Felipe as a Brazilian always loved good food and hanging out with his friends at a bar or restaurant.</p>
+          <p>He noted that every bar and restaurant had a QR Code menu, but it wasn’t an interactive menu, only a PDF page, and that’s when he came up with the software idea.</p>
+          <a href="aboutCompany.html">More About our Company</a>
+        </div>
+      </div>
+
+      <div class="contact" id="contactID">
+        <div class="title-sections">
+          <h4>OUR TEAM</h4>
+          <h3>Contact Us</h3>
+          <div class="contact-description">
+            <h4>We'd ♡ to answer any questions</h4>
+            <p>Please, feel free to ask away any questions, or anything you want to talk about our software.</p>
+          </div>
+        </div>
+
+        <img src="accets/message.svg" alt="Brand">
+        <form class="message-block">
+          <input type="text" id="name" name="name" placeholder="Name">
+          <input type="email" id="email" name="email" placeholder="example@mail.com">
+          <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+          <button type="submit" class="btn-accent">Submit</button>
+        </form>
+      </div>
+    </div>
+
+    <footer>
+      <a href="index.html"><img src="accets/logoName.svg" alt="Brand"></a>
+      <small>&copy; CheffsEye. All rights reserved.</small>
+      <hr>
+    </footer>
+
+    
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
 </html>
+
+
+
+

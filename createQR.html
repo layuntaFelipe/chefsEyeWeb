@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+      
+    <title>Create QRCode</title>
+
+    <!-- CSS only -->
+    <link href="css/createQRStyles.css" rel="stylesheet">
+   
+   
+      
+  </head>
+  <body>
+    
+    <nav>
+      <img class="navbar-logo" src="accets/logo.png" alt="Brand">
+      <ul>
+        <li><a href="panel.html" class="navBtn">Panel</a></li>
+        <li><a href="manage.html" class="navBtn">Manage</a></li>
+        <li><a href="kitchen.html" class="navBtn">Kitchen</a></li>
+        <li><a href="menu.html" class="navBtn">Menu</a></li>
+        <li><a href="createQR.html" class="navBtn">Create QR</a></li>
+      </ul>
+      <div class="userLog">
+        <a href=""><img src="accets/person.svg" alt=""></a>
+        <a href="" id="currentRestaurant">Restaurant 1</a>
+      </div>
+    </nav>
+
+    <div class="container">
+        <img src="accets/qrcode.png" id="qr" alt="">
+        <div class="right-column">
+            <h2>Create QR Code</h2>
+            <p>To create a unique QR code, simply write down the number of the table. In case you want to create a series of QR codes, write the number of the first table and the number of the last table.</p>
+            <div class="input-tables">
+                <h4>First Number</h4>
+                <input type="text">
+            </div>
+            <div class="input-tables">
+                <h4>Last Number</h4>
+                <input type="text">
+            </div><br>
+            <a href="" class="btn-accent">Create QR Code</a>
+        </div>
+    </div>
+  </body>
+</html>

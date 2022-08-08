@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Aleo:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+
+body {
+  background: #edf2f4 !important;
+  padding: 0px 0px 0px 135px;
+  font-family: "Aleo", serif;
+  margin: 0;
+}
+
+.container {
+  margin-top: -20px;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.left-column {
+  width: 40%;
+}
+.left-column h2 {
+  padding-top: 180px;
+  letter-spacing: 2.5px;
+  text-align: center;
+}
+.right-column {
+  width: 55%;
+  height: 840px;
+  background-image: url("./../signUpIMG.png");
+  background-repeat: no-repeat;
+  background-size: 110% 100%;
+  float: right;
+  color: #edf2f4;
+  text-align: center;
+}
+.right-column h2 {
+  padding-top: 140px;
+  font-size: 35px;
+}
+.right-column h3 {
+  font-size: 22px;
+}
+.right-column .current-plan-text {
+  margin: 0 0 30px 0;
+}
+.right-column h3 span {
+  font-size: 30px;
+  font-family: "Abel", sans-serif;
+  color: #ef233c;
+  text-shadow: 0 0 10px #ef233c;
+}
+.right-column ul {
+  text-align: left;
+  margin-left: 19%;
+}
+
+small {
+  color: #8d99ae;
+}
+
+.btn-accent {
+  background-color: #ef233c;
+  padding: 15px 35px;
+  border-radius: 10px;
+  font-weight: 700;
+  color: white;
+}
+.btn-accent:hover {
+  outline: none !important;
+  border-color: #ef233c;
+  box-shadow: 0 0 10px #ef233c;
+}
+.payment-container {
+  width: 63%;
+  margin-left: 15%;
+}
+input {
+  padding: 8px 0;
+  width: 300px;
+  border: 2px solid rgb(211, 211, 211);
+  border-radius: 10px;
+  margin-bottom: 8px;
+}
+input:focus {
+  outline: none !important;
+  border-color: #ef233c;
+  box-shadow: 0 0 10px #ef233c;
+}
+.plan-container {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  padding: 30px 5%;
+}
+label {
+  display: block;
+  font-size: 12px;
+}
+.card-title {
+  position: relative;
+  text-align: center;
+  margin-left: -35%;
+  margin-top: 13px;
+}
+.card-title h3 {
+  display: inline-block;
+  position: absolute;
+  font-family: "Abel", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+.same-line label {
+  font-size: 11px;
+}
+.same-line input {
+  width: 80px;
+}
+.same-line-input {
+  display: inline-block;
+  margin: 2.5px;
+}
+a {
+  display: block;
+  margin-top: 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.plan {
+  padding: 10px 25px;
+  background-color: rgba(0, 0, 0, 0.39);
+  border-radius: 15px;
+  position: relative;
+}
+.plan:hover {
+  outline: none !important;
+  background-color: #ef233c;
+  border-color: #ef233c;
+  box-shadow: 0 0 10px #ef233c;
+}
+.plan h3 {
+  font-size: 16px;
+}
+.plan h6 {
+  margin: 0 0 0 25px;
+  font-size: 21px;
+  padding: 0;
+}
+nav{
+  position: absolute;
+  top: 40px;
+}
+
+
+.plan input[type="radio"] {
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+}
+@media only screen and (min-width: 1600px){
+  body {
+    zoom: 120%;
+  }
+}
+@media only screen and (max-width: 1120px){
+	body{
+		padding: 0px 0px 0px 0px;
+	}
+	.right-column{
+		display: none;
+	}
+	.left-column{
+		width: 60%;
+		margin: 0 auto;
+	}
+	.payment-container {
+		width: 100%;
+		margin: 0;
+	}
+}
+
+@media only screen and (max-width: 660px){
+	
+	
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    <title>Pay Plan</title>
+
+    <!-- CSS only -->
+    <link href="css/paymentStyles.css" rel="stylesheet">
+	<link rel="icon" href="accets/logo.png" type="image/png">
+   
+   
+      
+  </head>
+  <body>
+    <div class="container clearfix">
+      <div class="right-column clearfix">
+        <h2>Plans & Descriptions</h2>
+        <div class="plan-container">
+            <div class="plan">
+                <h3>Cupper Pot</h3>
+                <h6>$100<small>/mo</small></h6>
+            </div>
+            <div class="plan">
+                
+                <h3>Stainless Steel</h3>
+                <h6>$175<small>/mo</small></h6>
+            </div>
+            <div class="plan">
+                
+                <h3>Industry Standard</h3>
+                <h6>$200<small>/mo</small></h6>
+            </div>
+            <div class="plan">
+                <h3>Professional Chef</h3>
+                <h6>$275<small>/mo</small></h6>
+            </div>
+        </div>
+        <h3 class="current-plan-text">You current plan is: <span>Cupper Pot</span></h3>
+        <ul>
+            <li>8hours/weekdays tech support</li>
+            <li>Up to 15 tables/restaurant</li>
+            <li>Standard table map</li>
+        </ul>
+        <p>If this plan doesn't work for your reestaurant, you can choose another one, or if you have any question, feel free to send us a message</p>
+      </div>
+      <div class="left-column clearfix">
+        <nav>
+            <a href="index.html"><img src="accets/logoName.svg" alt="Brand"></a>
+        </nav>
+        <div class="payment-container">
+            <h2>Finish payment</h2>
+            <small>As for right now we only accept credit cards, but no worry your data is completely safe. Our engineers are working hard to implement new payment ways for your comfort.</small>
+            <div class="card-title">
+                <img src="accets/credit_card.svg" alt="">
+                <h3>Credit Card</h3>
+            </div>
+            <hr>
+            <div class="input-box">
+                <label for="cardNameID">NAME ON CARD</label>
+                <input type="text" id="cardNameID" placeholder="John Doe">
+                <label for="cardNumberID">CARD NUMBER</label>
+                <input type="text" id="cardNumberID" placeholder="">
+                <div class="same-line">
+                    <div class="same-line-input">
+                        <label for="cardExpirationID">EXPIRATION DATE</label>
+                        <input type="text" id="cardExpirationID" placeholder="MM/YY">
+                    </div>
+                    <div class="same-line-input">
+                        <label for="cardCodeID">SECURITY CODE</label>
+                        <input type="text" id="cardCodeID" placeholder="CVV">
+                    </div>
+                    <div class="same-line-input">
+                        <label for="postalID">POSTAL CODE</label>
+                        <input type="text" id="postalID" placeholder="">
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <small>Please review and confirm the above information. By clicking "Agree & Subscribe" you are enrolling in automatic payments of CA$100.00/month (plus tax where applicable) that will continue until you cancel. You can cancel at any time, effective at the end of the billing period. There are no refunds or credits for partial months or years unless required by law.</small>
+            <a href="" class="btn-accent">Confirm</a>
+        </div>
+      </div>
+  </div>
+    
+  <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

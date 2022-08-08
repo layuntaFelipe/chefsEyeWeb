@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Aleo:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+
+body {
+  background: #edf2f4 !important;
+  padding: 45px 40px;
+  font-family: "Aleo", serif;
+  margin-top: 0;
+}
+
+img {
+  width: 50px;
+}
+nav {
+  background-color: #edf2f4;
+  position: relative;
+}
+.userLog {
+  width: 150px;
+  display: inline-block;
+  position: absolute;
+  right: 0;
+}
+#currentRestaurant {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+ul {
+  list-style: none;
+  display: inline-block;
+  font-weight: 700;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 48%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+li {
+  display: inline;
+  margin: 0 10px;
+}
+a {
+  text-decoration: none;
+}
+.navBtn {
+  text-decoration: none;
+  color: #2b2d42;
+}
+
+.navBtn:hover {
+  color: #ef233c;
+  font-family: "Abel", sans-serif;
+}
+.btn-accent {
+  background-color: #ef233c;
+  padding: 18px 35px;
+  border-radius: 10px;
+  font-weight: 700;
+  color: white;
+}
+
+.container {
+  margin: 80px 0 0px 80px;
+}

@@ -1,0 +1,328 @@
+@import url("https://fonts.googleapis.com/css2?family=Aleo:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+
+body {
+  background: #edf2f4 !important;
+  padding: 0px 135px;
+  font-family: "Aleo", serif;
+  /* margin-top: 0; */
+  margin: 0;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* position: relative; */
+  padding-top: 37px;
+  background-color: #edf2f4;
+  z-index: 100;
+  box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.055);
+  border-radius: 20px 20px;
+}
+.container {
+  padding-top: 105px;
+  text-align: center;
+}
+.burger {
+  display: none;
+  position: absolute;
+  right: 10%;
+  bottom: 30%;
+  transform: translateY(30%);
+  height: 36px;
+  width: 50px;
+}
+.burger div {
+  width: 50px;
+  height: 7px;
+  background-color: #c4c4c4;
+  margin: 5px;
+  border-radius: 5px;
+}
+.burger .line3 {
+  width: 40px;
+  position: absolute;
+  top: 24px;
+  left: 10px;
+}
+.userLog {
+  position: absolute;
+  right: 10.5%;
+  top: 60%;
+}
+
+.navbar-logo {
+  width: 290px;
+  height: auto;
+  margin: 0;
+  padding-left: 135px;
+}
+.mobile-nav {
+  display: none;
+  width: 50%;
+  position: absolute;
+  right: 0;
+  height: 100vh;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.95);
+  text-align: center;
+  padding-top: 16vh;
+  transition: transform 0.5s ease-in;
+}
+.mobile-nav a {
+  display: block;
+  color: white;
+  font-size: 24px;
+  margin: 20px 0;
+}
+.mobile-nav .btn-accent {
+  width: 50%;
+  position: absolute;
+  right: 50%;
+  transform: translateX(50%);
+}
+#loginBtnMobile {
+  color: #ef233c;
+  margin-top: 50px;
+}
+#loginBtnMobile:hover {
+  color: #ef233c;
+  font-family: "Abel", sans-serif;
+}
+.nav .navbar-brand {
+  background-color: #ef233c !important;
+}
+
+.nav .btn-accent {
+  background-color: #ef233c;
+  color: #edf2f4;
+}
+
+nav ul {
+  position: absolute;
+  bottom: 10%;
+  font-weight: 700;
+  list-style: none;
+  display: inline-block;
+  margin-left: 5%;
+}
+
+nav li {
+  display: inline;
+  margin: 0 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navBtn {
+  text-decoration: none;
+  color: #2b2d42;
+}
+
+.navBtn:hover {
+  color: #ef233c;
+  font-family: "Abel", sans-serif;
+}
+
+#loginBtn {
+  text-decoration: none;
+  font-weight: 700;
+  color: #2b2d42;
+  padding-right: 15px;
+}
+.title {
+  text-align: center;
+}
+.title h2 {
+  font-size: 2rem;
+}
+.title p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #8d99ae;
+}
+
+.plan-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+}
+
+.description {
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+.description ul {
+  margin-left: 0;
+  padding: 0;
+  display: inline-block;
+  font-weight: bold;
+}
+.description ul li {
+  margin: 0;
+  padding: 0;
+}
+.plan {
+  width: 273px;
+  height: 466px;
+  border-radius: 28px;
+  margin: 15px;
+  position: relative;
+}
+.plan h2 {
+  font-size: 30px;
+  color: rgba(0, 0, 0, 0.56);
+  margin: 0;
+}
+.plan h3 {
+  font-size: 1.3rem;
+  color: rgba(0, 0, 0, 0.56);
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 30px;
+  padding: 20px 40px;
+}
+.plan ul {
+  padding-left: 50px;
+  padding-right: 40px;
+  text-align: left;
+  font-size: 18px;
+}
+.btn-accent {
+  background-color: #ef233c;
+  width: 90px;
+  padding: 18px 35px;
+  border-radius: 10px;
+  font-weight: 700;
+  color: white;
+}
+.navBtnActive {
+  color: #ef233c !important;
+  font-family: "Abel", sans-serif;
+}
+.plan .btn-accent {
+  position: absolute;
+  bottom: 30px;
+  right: 50%;
+  transform: translateX(50%);
+}
+#cupperPot {
+  background-color: #cd7f32;
+  box-shadow: 0px 100px 80px rgba(205, 127, 50, 0.07),
+    0px 41.7776px 33.4221px rgba(205, 127, 50, 0.0503198),
+    0px 22.3363px 17.869px rgba(205, 127, 50, 0.0417275),
+    0px 12.5216px 10.0172px rgba(205, 127, 50, 0.035),
+    0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725),
+    0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
+}
+#cupperPot .description {
+  color: #804f1f;
+}
+#cupperPot h3 {
+  margin-bottom: 60px;
+}
+#stainless {
+  background: #c0c0c0;
+  box-shadow: 0px 100px 80px rgba(192, 192, 192, 0.07),
+    0px 41.7776px 33.4221px rgba(192, 192, 192, 0.0503198),
+    0px 22.3363px 17.869px rgba(192, 192, 192, 0.0417275),
+    0px 12.5216px 10.0172px rgba(192, 192, 192, 0.035),
+    0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725),
+    0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
+}
+#stainless .description {
+  color: #6b6a6a;
+}
+#industry {
+  background: #fae481;
+  box-shadow: 0px 100px 80px rgba(250, 228, 129, 0.07),
+    0px 41.7776px 33.4221px rgba(250, 228, 129, 0.0503198),
+    0px 22.3363px 17.869px rgba(250, 228, 129, 0.0417275),
+    0px 12.5216px 10.0172px rgba(250, 228, 129, 0.035),
+    0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725),
+    0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
+}
+#industry .description {
+  color: #8d8147;
+}
+#professional {
+  background: #b9f2ff;
+  box-shadow: 0px 100px 80px rgba(185, 242, 255, 0.07),
+    0px 41.7776px 33.4221px rgba(185, 242, 255, 0.0503198),
+    0px 22.3363px 17.869px rgba(185, 242, 255, 0.0417275),
+    0px 12.5216px 10.0172px rgba(185, 242, 255, 0.035),
+    0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725),
+    0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
+}
+#professional .description {
+  color: #5c7b82;
+}
+.price {
+  display: inline-block;
+  font-size: 48px;
+  color: white;
+}
+footer{
+	margin-top: 50px;
+}
+footer img {
+  width: 130px;
+  margin: 0;
+  margin-bottom: -7px;
+  padding: 0;
+}
+
+.mobile-nav-show {
+  display: inline;
+}
+@media only screen and (min-width: 1600px){
+  body {
+    zoom: 120%;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  nav ul {
+    display: none;
+  }
+  nav .userLog {
+    display: none;
+  }
+  .burger {
+    display: inline;
+    cursor: pointer;
+  }
+  .plan-container {
+    margin: 20px auto;
+    width: 700px;
+    height: 1000px;
+    display: grid;
+    grid-template-columns: 0px 400px;
+    grid-row: auto auto;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+}
+@media only screen and (max-width: 845px) {
+  .plan-container {
+    display: inline;
+  }
+  .plan {
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  .navbar-logo {
+    width: 30%;
+    padding-left: 70px;
+  }
+  body {
+    padding: 0px 50px;
+  }
+}

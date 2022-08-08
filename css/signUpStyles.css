@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Aleo:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+
+body {
+  background: #edf2f4 !important;
+  padding: 0px 0px 0px 135px;
+  font-family: "Aleo", serif;
+  margin: 0;
+}
+.container {
+  margin-top: -20px;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.left-column {
+  width: 40%;
+  position: relative;
+}
+.left-column h2 {
+  padding-top: 212px;
+  letter-spacing: 2.5px;
+}
+.left-column .btn-accent {
+  position: absolute;
+  right: 0;
+  bottom: 30%;
+}
+.right-column {
+  width: 55%;
+  height: 840px;
+  background-image: url("./../signUpIMG.png");
+  background-repeat: no-repeat;
+  background-size: 110% 100%;
+  float: right;
+  color: #edf2f4;
+  text-align: center;
+}
+.right-column h1 {
+  padding: 250px 100px 20px 100px;
+  line-height: 60px;
+  font-size: 45px;
+  color: #8d99ae;
+}
+small {
+  color: #8d99ae;
+}
+nav{
+  position: absolute;
+  top: 40px;
+}
+a {
+  color: #ef233c;
+  text-decoration: none;
+}
+.btn-accent {
+  background-color: #ef233c;
+  padding: 18px 35px;
+  border-radius: 10px;
+  font-weight: 700;
+  color: white;
+}
+#logIn {
+  position: absolute;
+  right: 0;
+  top: 72%;
+  transform: translateY(-72%);
+}
+.input-box {
+  margin: 40px 0;
+  position: relative;
+}
+input {
+  position: absolute;
+  right: 0;
+  bottom: 50%;
+  transform: translateY(50%);
+  padding: 8px;
+  width: 300px;
+  border: 2px solid rgb(211, 211, 211);
+  border-radius: 10px;
+}
+input:focus {
+  outline: none !important;
+  border-color: #ef233c;
+  box-shadow: 0 0 10px #ef233c;
+}
+hr {
+  margin: 40px 0 30px 0;
+}
+@media only screen and (min-width: 1600px){
+  body {
+    zoom: 120%;
+  }
+}
+@media only screen and (max-width: 1120px){
+	body{
+		padding: 0px 0px 0px 0px;
+	}
+	.right-column{
+		display: none;
+	}
+	.left-column{
+		width: 60%;
+		margin: 0 auto;
+	}
+	#register{
+		bottom: -5%;
+	}
+}
+
+@media only screen and (max-width: 660px){
+	input {
+		position: static;
+		transform: translateY(0%);
+		width: 100%;
+	}
+	#register{
+		position: static;
+		display: block;
+		text-align: center;
+		margin-top: 20px;
+	}
+}
