@@ -20,6 +20,9 @@ Check the website out on: http://sws.lethbridgecollege.ca/~s0533907/restaurant/
 ## Tech Stack
 
 **Client:** Pure HTML, CSS, and Vanilla Javascript
+<img src="https://img.icons8.com/color/344/html-5--v1.png" alt="HTML" width="40" height="40" style="max-width:100%;"></img>
+<img src="https://img.icons8.com/color/344/css3.png" alt="CSS" width="40" height="40" style="max-width:100%;"></img>
+<img src="https://img.icons8.com/fluency/344/javascript.png" alt="Javascript" width="40" height="40" style="max-width:100%;"></img>
 
 
 ## Website Preview
