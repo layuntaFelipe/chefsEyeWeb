@@ -27,7 +27,7 @@ Check the website out at: http://sws.lethbridgecollege.ca/~s0533907/restaurant/
 ## Website Preview
 
 <p float="left">
-  <img align="center" src="https://github.com/layuntaFelipe/crypto-nummum/blob/master/screenshots/crypto-video-2.gif" alt="Demo" width="800"/> <br/><br/>
+  <img align="center" src="https://github.com/layuntaFelipe/chefsEyeWeb/screenshots/Screen Shot 2022-08-09 at 1.33.07 AM.png" alt="Demo" width="800"/> <br/><br/>
   <img align="center" src="https://github.com/layuntaFelipe/crypto-nummum/blob/master/screenshots/home.png" alt="Web first page" width="500"/> <br/><br/>
   <img align="center" src="https://github.com/layuntaFelipe/crypto-nummum/blob/master/screenshots/crypto-home-2.png" alt="Web first page" width="500"/> <br/><br/>
     <img align="center" src="https://github.com/layuntaFelipe/crypto-nummum/blob/master/screenshots/crypto-home-3.png" alt="Web second page" width="500"/>
