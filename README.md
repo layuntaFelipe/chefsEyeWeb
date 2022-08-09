@@ -7,7 +7,7 @@ Chef's Eye Website was one of my first big FrontEnd projects, starting as just a
 Although the software part is not yet ready, this shows the market website of the software. 
 The market website is not complex at all, due to being only the frontend part, that is HTML, CSS, and just a bit of Javascript. But it gets the job done of getting the attention of possible customers of the software.
 
-Check the website out on: http://sws.lethbridgecollege.ca/~s0533907/restaurant/
+Check the website out at: http://sws.lethbridgecollege.ca/~s0533907/restaurant/
 
 ## Roadmap
 
